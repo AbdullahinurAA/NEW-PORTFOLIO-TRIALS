@@ -22,18 +22,15 @@ header .header hr {
   width: 50%;
 }
 
-main {
-  margin: 1rem;
-}
-main .projects {
-  height: 100vh;
-}
 main .projects h1 {
-  margin-top: 1rem;
+  color: green;
   font-weight: 900;
 }
+main .about {
+  padding: auto;
+  margin: 0;
+}
 main .about h1 {
-  margin-top: 1rem;
   font-weight: 900;
 }
 main .about .grid-container {
@@ -44,11 +41,21 @@ main .about .grid-container {
 }
 main .about .grid-container .one {
   grid-column-start: 1;
-  grid-column-end: 3;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  padding: 0;
+  margin: 0;
+  grid-row-end: 2;
 }
 main .about .grid-container .two {
   grid-column-start: 3;
   grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+main .about .grid-container .two img {
+  padding: 0 0 0 0px;
+  margin: 0 -9rem 0 0px;
 }
 
 footer {
